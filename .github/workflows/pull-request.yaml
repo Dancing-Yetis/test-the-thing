@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20' # Specify your preferred version
-          cache: 'npm'       # Automatically caches your node_modules for speed
 
       - name: Execute Test Suite
         run: echo "Tested"
